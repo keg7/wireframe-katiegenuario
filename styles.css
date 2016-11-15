@@ -1,0 +1,263 @@
+body {
+	font-family: Arial;
+	color: black;
+	font-size: 24px;
+	margin: 0;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+li{
+	display: inline-block;
+	padding-right: 30px;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+.topsection{
+	background: url("johnlennonwall.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.navbar{
+	background-color: lightgreen;
+	height: 50;
+	position: fixed;
+	width: 100%;
+}
+.intro{
+	text-align: center;
+	color: white;
+	margin: 0 auto;
+}
+.name{
+	padding-top: 130px;
+	font-size: 100px;
+	font-family: Impact;
+}
+.profilepic {
+	margin: 0 auto;
+	padding-top: 100px;
+	padding-bottom: 60px;
+}
+.profilepic img {
+	width: 400px;
+	border-radius: 100%;
+	border: 7px solid black;
+}
+.blurb{
+	font-size: 40px;
+	font-family: Arial Black;
+	padding-bottom: 60px;
+	color: white;
+}
+.about{
+	background-color: turquoise;
+	width: 100%;
+}
+.about-title{
+	padding-top: 10px;
+	font-size: 30px;
+	text-align: center;
+	font-family: Arial Black;
+}
+.about-img{
+	display: inline-block;
+	width: 33%;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.about-img img{
+	width: 165px;
+	height: 150px;
+	border-radius: 100%
+}
+.about-body{
+	display: inline-block;
+	text-align: center;
+	width: 66%;
+	vertical-align: top;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.mywork{
+	background-color: pink;
+	width: 100%;
+	text-align: center;
+}
+.mywork-title{
+	padding-top: 10px;
+	font-size: 30px;
+	text-align: center;
+	font-family: Arial Black;
+}
+.research{
+	display: inline-block;
+	width: 33%;
+}
+.research-title{
+	padding-top: 10px;
+	font-size: 24px;
+	text-align: center;
+	font-family: Arial;
+}
+.research-img{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.research-img img{
+	width: 200px;
+}
+.research-body{
+	vertical-align: top;
+	padding-bottom: 20px;
+}
+.egg{
+	display: inline-block;
+	width: 33%;
+}
+.egg-title{
+	padding-top: 10px;
+	font-size: 24px;
+	text-align: center;
+	font-family: Arial;
+}
+.egg-img{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.egg-img img{
+	width: 200px;
+}
+.egg-body{
+	vertical-align: top;
+	padding-bottom: 20px;
+}
+.other{
+	display: inline-block;
+	width: 33%;
+}
+.other-title{
+	padding-top: 10px;
+	font-size: 24px;
+	text-align: center;
+	font-family: Arial;
+}
+.other-img{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.other-img img{
+	width: 200px;
+}
+.other-body{
+	vertical-align: top;
+	padding-bottom: 20px;
+}
+.gallery{
+	background-color: white;
+	width: 100%;
+}
+.column-content {
+	position: absolute;
+	bottom:0;
+	background-color: rgba(0,0,0,0.8);
+	padding: 20px;
+}
+.column-content a {
+	font-family: Arial;
+	text-decoration: none;
+	color: black;
+	position: relative;
+	font-family: Arial;
+	color: white;
+	font-size: 24px;
+}
+.left {
+	background-image: url("germanycover.jpg");
+	display: inline-block;
+	width: 33%;
+	height: 300px;
+	background-size: cover;
+	position: relative;
+}
+.middle {
+	background-image: url("armeniacover.jpg");
+	display: inline-block;
+	width: 34%;
+	height: 300px;
+	background-size: cover;
+	position: relative;
+}
+.right {
+	background-image: url("uvacover.jpg");
+	display: inline-block;
+	width: 33%;
+	height: 300px;
+	background-size: cover;
+	position: relative;
+}
+.contactme{
+	background-color: white;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.contactme-title{
+	padding-top: 10px;
+	font-size: 30px;
+	text-align: center;
+	font-family: Arial Black;
+}
+.email-img{
+	display: inline-block;
+	padding-right: 20px;
+}
+.email-body{
+	display: inline-block;
+}
+.phone-img{
+	display: inline-block;
+	padding-right: 20px;
+}
+.phone-body{
+	display: inline-block;
+}
+.linkedin-img{
+	display: inline-block;
+	padding-right: 20px;
+}
+.linkedin-body{
+	display: inline-block;
+}
+.bottom-bar{
+	background-color: gold;
+	width: 100%;
+}
+@media only screen and (max-width: 800px) {
+	.about-img, .about-body {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 800px) {
+	.research, .egg, .other {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 800px) {
+	.left,.middle,.right {
+		width: 100%;
+		height: 500px;
+	}
+}
